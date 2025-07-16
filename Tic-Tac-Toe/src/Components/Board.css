@@ -1,0 +1,45 @@
+body{
+    padding:0;
+    margin : 0;
+}
+
+.board{
+    display : flex;
+    align-items: center;
+    justify-content : center;
+    flex-direction : column;
+    background-color: #14BDAC;
+     border: 1px solid white;
+     width : 400px;
+     height : 400px;
+}
+.status{
+    color : white;
+    font-size : 20px;
+    margin-bottom : 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.board-row{
+   display: flex;;
+ 
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 2px solid #444;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
